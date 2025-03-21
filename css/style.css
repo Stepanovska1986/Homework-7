@@ -1,0 +1,99 @@
+h1{
+    width: 33%;
+    display: inline-block;
+    border: 5px solid blue;
+    float: left;
+   
+  
+}
+h2,h3,h4,h5{
+    font-size: 20px;
+     display:inline-block ;
+     margin: 5px;
+     padding: 5px;
+     border: 2px solid purple;
+    
+   
+}
+
+
+
+span{
+margin: 10px;
+padding: 20px;
+border: 5px solid red;
+display: inline-block;
+width: 300px;
+box-sizing: border-box;
+}
+.overflow{
+    max-width: 400px;
+    max-height: 300px;
+    overflow: auto;
+     border: 5px solid green;
+     float: right;
+     
+
+}
+
+
+
+
+.box{
+   
+   float: inline-start;
+    
+    width: 300px;
+    height: 200px;
+    background: rgb(167, 30, 122);
+    position: relative;
+}
+.position-box{
+    position: sticky;
+    top: 100px;
+    left: 100px;
+}
+img{
+    height: 400px;
+    float: left;
+}
+
+a{
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+form{
+ color: slateblue;
+   
+}
+input[type="text"]{
+    border: 5px solid rgb(14, 154, 63);
+}
+.contener{
+    width: 300px;
+    height: 150px;
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 20px;
+    overflow: scroll;
+    float: right;
+
+  
+
+}
+.navigation{
+   position: fixed;
+   bottom: 0px; 
+   left:0px;
+   width:100%;
+   font-size: 20px;
+     
+   
+}
+
+
+
+
+
